@@ -18,7 +18,7 @@ order: 4
 <div>
 
 <h2>Summary</h2>
-저는 이런 사람입니다.
+자기소개 준비 중
 
 <h2>Education</h2>
 <ul> 
