@@ -519,6 +519,7 @@ i { /* fontawesome icons */
 
 .tag:hover {
   @extend %tag-hover;
+  color: #ffffff; //
 }
 
 .post-tag {
@@ -749,8 +750,8 @@ $sidebar-display: "sidebar-display";
       transition: transform 0.5s, -webkit-transform 0.5s;
 
       &:hover {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+        // -webkit-transform: scale(1.2);
+        // transform: scale(1.2);
       }
     }
   } /* #avatar */
@@ -764,13 +765,13 @@ $sidebar-display: "sidebar-display";
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
-      color: rgba(134, 133, 133, 0.99);
+      color: #ffffff; // rgba(134, 133, 133, 0.99);
     }
   }
 
   .site-subtitle {
     font-size: 95%;
-    color: var(--sidebar-muted-color);
+    color: #ffffff; // var(--sidebar-muted-color);
     line-height: 1.25rem;
     word-spacing: 1px;
     margin: 0.2rem 1.5rem 0.5rem 1.5rem;
@@ -787,16 +788,18 @@ $sidebar-display: "sidebar-display";
     letter-spacing: 1px;
     display: table-cell;
     vertical-align: middle;
+    color: #ffffff; //
   }
 
   .nav-item {
     text-align: center;
     display: table;
     height: $tab-height;
+    color: #ffffff; //
 
     &.active {
       .nav-link {
-        color: var(--sidebar-active-color);
+        color: #ffffff; // var(--sidebar-active-color);
       }
     }
 
@@ -847,6 +850,7 @@ $sidebar-display: "sidebar-display";
       @if $i < $tab-count {
         > li.active:nth-child(#{$i}),
         > li.nav-item:nth-child(#{$i}):hover {
+          color: #ffffff; //
           ~ li:last-child::after {
             @include fix-cursor($top);
           }
@@ -869,6 +873,7 @@ $sidebar-display: "sidebar-display";
     %icon {
       width: 2.4rem;
       text-align: center;
+      color: #ffffff;
     }
 
     a {
@@ -895,7 +900,7 @@ $sidebar-display: "sidebar-display";
       }
 
       &:hover > i {
-        color: var(--sidebar-active-color);
+        color:#ffffff; // var(--sidebar-active-color);
       }
     }
 
@@ -944,7 +949,7 @@ $sidebar-display: "sidebar-display";
   transition: top 0.2s ease-in-out;
   z-index: 50;
   border-bottom: 1px solid rgba(0, 0, 0, 0.07);
-  background-color: var(--topbar-wrapper-bg);
+  background-color: #e2e2e2; // var(--topbar-wrapper-bg);
 
   [data-topbar-visible="false"] & {
     top: -$topbar-height; /* same as topbar height. */

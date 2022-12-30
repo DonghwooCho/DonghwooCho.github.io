@@ -34,10 +34,10 @@
     );
 
   /* Sidebar */
-  --sidebar-bg: #eeeeee;
-  --sidebar-muted-color: #a2a19f;
-  --sidebar-active-color: #424242;
-  --nav-cursor-color: #757575;
+  --sidebar-bg: #183981;
+  --sidebar-muted-color: #ffffff ;
+  --sidebar-active-color: #a2a19f;// #424242;
+  --nav-cursor-color: #ffffff; // #757575;
   --sidebar-btn-bg: white;
 
   /* Topbar */
@@ -51,10 +51,10 @@
 
   /* Home page */
   --post-list-text-color: dimgray;
-  --btn-patinator-text-color: #555555;
-  --btn-paginator-hover-color: var(--sidebar-bg);
+  --btn-patinator-text-color: #000000;
+  --btn-paginator-hover-color: rgb(24, 57, 129, 0.8); // var(--sidebar-bg);
   --btn-paginator-border-color: var(--sidebar-bg);
-  --btn-text-color: #676666;
+  --btn-text-color: #ffffff; //#676666;
   --pin-bg: #f5f5f5;
   --pin-color: #999fa4;
 
@@ -75,10 +75,10 @@
   --kbd-wrap-color: #bdbdbd;
   --kbd-text-color: var(--text-color);
   --kbd-bg-color: white;
-  --prompt-text-color: rgb(46, 46, 46, 0.77);
-  --prompt-tip-bg: rgb(123, 247, 144, 0.2);
-  --prompt-tip-icon-color: #03b303;
-  --prompt-info-bg: #e1f5fe;
+  --prompt-text-color: #000000; // rgb(46, 46, 46, 0.77);
+  --prompt-tip-bg: #ffffff; // rgb(24, 57, 129, 0.3); // rgb(123, 247, 144, 0.2);
+  --prompt-tip-icon-color: #183981;
+  --prompt-info-bg: #183981; // #e1f5fe;
   --prompt-info-icon-color: #0070cb;
   --prompt-warning-bg: rgb(255, 243, 205);
   --prompt-warning-icon-color: #ef9c03;
