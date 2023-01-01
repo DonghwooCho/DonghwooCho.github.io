@@ -3,7 +3,7 @@
 # ----- Commons label -----
 
 layout:
-  post: 포스트
+  post: 게시물
   category: 카테고리
   tag: 태그
 
@@ -11,9 +11,9 @@ layout:
 tabs:
   # format: <filename_without_extension>: <value>
   home: Home
-  categories: Categories
-  tags: Tags
-  archives: Archives
+  categories: Posts By Category
+  tags: Posts By Tag
+  archives: History
   about: About
 
 # the text displayed in the search bar & search results
@@ -83,4 +83,4 @@ df:
 # categories page
 categories:
   category_measure: 카테고리
-  post_measure: 포스트
+  post_measure: 게시물
