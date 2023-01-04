@@ -1,7 +1,7 @@
 ---
 title: 자료구조 소개 - 스택 (Stack)
 # author: DonghwooCho
-date: 2023-01-03 00:00:00 +0900
+date: 2023-01-04 00:00:00 +0900
 categories: [자료구조 & 알고리즘, Stack]
 tags: [Data structure, Stack]
 ---
