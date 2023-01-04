@@ -1,5 +1,5 @@
 ---
-title: 알고리즘 - 동적 프로그래밍 (Dynamic programing, DP)
+title: 알고리즘 소개 - 동적 프로그래밍 (Dynamic programing, DP)
 # author: DonghwooCho
 date: 2023-01-01 00:00:00 +0900
 categories: [자료구조 & 알고리즘, Dynamic programing]

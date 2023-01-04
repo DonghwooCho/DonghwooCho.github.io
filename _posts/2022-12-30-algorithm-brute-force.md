@@ -1,5 +1,5 @@
 ---
-title: 알고리즘 - 브루트 포스 (Brute force)
+title: 알고리즘 소개 - 브루트 포스 (Brute force)
 # author: DonghwooCho
 date: 2022-12-30 00:00:00 +0900
 categories: [자료구조 & 알고리즘, Brute force]
