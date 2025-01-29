@@ -64,6 +64,9 @@ plugins:
 extra_css:
   - stylesheets/custom.css
 
+extra_javascript:
+  - javascripts/custom.js
+
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
