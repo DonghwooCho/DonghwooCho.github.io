@@ -1,28 +1,9 @@
-# hidden files
-.*
-!.git*
-!.editorconfig
-!.nojekyll
-!.husky
-!.commitlintrc.json
-!.versionrc.json
-!.stylelintrc.json
+# git secret add ./docs/posts/*
+# git secret hide
 
-# bundler cache
-_site
-vendor
+.env
+.gitsecret/keys/random_seed
+!*.secret
 
-# rubygem
-*.gem
-
-# npm dependencies
-node_modules
-package-lock.json
-Gemfile.lock
-
-*.py
-profile.jpg
-2021-01-03-enable-google-pv.md
-2022-12-28-test-post.md
-2022-12-29-test-post2.md
-2022-12-30-test-post3.md
+update.sh
+docs/posts/*.md

@@ -1,0 +1,105 @@
+site_name: SAMAEL
+site_url: https://donghwoocho.github.io
+
+theme:
+  language: ko
+  name: material
+  logo: assets/images/logo.jpeg
+  favicon: assets/images/logo.jpeg
+
+  icon:
+    edit: material/pencil-plus-outline
+    view: material/eye
+
+  features:
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - navigation.top
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.prune
+    - navigation.footer
+    - navigation.expand
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.sections
+    - content.action.edit
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/lightbulb
+        name: change to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/lightbulb-outline
+        name: change to light mode
+
+plugins:
+  - search
+  - git-authors
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - blog:
+      blog_dir: .
+      authors_profiles: true
+  - tags:
+      tags_file: tags.md
+      tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+extra_css:
+  - stylesheets/custom.css
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
+edit_uri: edit/main/docs/
+
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: G-DC8GZEGN08
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/DonghwooCho
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/donghwoocho
+      name: LinkedIn
+#   alternate:
+#     - name: Korean
+#       link: /
+#       lang: ko
+#     - name: English
+#       link: /en/
+#       lang: en
+
+# nav:
+#   - index.md
+#   - Blog:
+#       - blog/index.md
+#   - About:
+#       - about.md
+
+copyright: © 2025. DonghwooCho. All rights reserved.
