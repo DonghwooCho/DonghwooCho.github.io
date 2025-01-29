@@ -70,6 +70,16 @@
     url("../fonts/pretandard/woff2/Pretendard-Thin.woff2") format("woff2");
 }
 
+.md-logo img {
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+}
+
+.md-header__topic .md-ellipsis {
+  margin-left: -20px;
+}
+
 :root {
   --md-text-font: "Pretendard";
   --md-primary-bg-color: #e9e9e9;
